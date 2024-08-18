@@ -1,0 +1,22 @@
+<div class="menu-item-tile col-md-6">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="menu-item-photo">
+                <div>{{item.short_name}}</div>
+                <img class="img-fluid" width="250" height="150" src="/images/menu/{{category.short_name}}/{{item.short_name}}.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">
+                {{item.price_small}}<span>{{item.small_portion_name}}</span>
+                {{item.price_large}}<span>{{item.large_portion_name}}</span>
+            </div>
+        </div>
+        <div class="menu-item-descraption col-sm-7">
+            <h3 class="menu-item-title">{{item.name}}</h3>
+            <p class="menu-item-details">
+                {{item.description}}
+            </p>
+        </div>
+    </div>
+    <hr class="d-block d-sm-none">
+</div>
+
